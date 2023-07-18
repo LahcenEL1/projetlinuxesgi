@@ -1,0 +1,27 @@
+.view-comment {
+  margin-top: 40px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.comment-content {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.comment-author {
+  font-size: 14px;
+  color: #888;
+}
+

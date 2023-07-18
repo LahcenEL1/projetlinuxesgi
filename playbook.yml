@@ -1,0 +1,30 @@
+---
+- name: Install development tools
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Update system packages
+      apt:
+        update_cache: yes
+
+    - name: Install Fish shell
+      apt:
+        name: fish
+        state: latest
+
+    - name: Install Tmux
+      apt:
+        name: tmux
+        state: latest
+
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: latest
+
+    - name: Start Docker service
+      service:
+        name: docker
+        state: started
+...

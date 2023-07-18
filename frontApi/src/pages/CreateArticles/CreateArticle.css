@@ -1,0 +1,44 @@
+.create-article {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.create-article h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-article form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-article label {
+  margin-bottom: 10px;
+}
+
+.create-article input,
+.create-article textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.create-article button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.create-article button:hover {
+  background-color: #0056b3;
+}

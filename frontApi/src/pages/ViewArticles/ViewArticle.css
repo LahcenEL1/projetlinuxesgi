@@ -1,0 +1,21 @@
+.view-articles {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.view-articles h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.view-articles .article {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.view-articles .article p {
+  margin: 0;
+}

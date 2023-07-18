@@ -1,0 +1,16 @@
+.create-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.create-comment form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.create-comment button {
+  margin-top: 20px;
+}
